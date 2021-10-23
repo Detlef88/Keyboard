@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	flex-direction: column;
+	background: #555;
+	margin: 0;
+	font-family: "BahnSchrift", sans-serif;
+	color: white;
+	align-items: center;
+}
+
+textarea {
+	height: 15vh;
+	width: 95%;
+}
+
+@media screen and (min-width: 1024px) {
+	textarea {
+		width: 50%;
+	}
+}
